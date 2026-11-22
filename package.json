@@ -8,9 +8,18 @@
     "build": "tsc",
     "test": "tsc && node --test dist/tests/*.test.js",
     "demo": "tsc && node dist/examples/basic-agent.js",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "bench": "tsc && node dist/benchmarks/run.js"
   },
-  "keywords": ["ai", "agents", "llm", "runtime", "dag", "memory-graph", "typescript"],
+  "keywords": [
+    "ai",
+    "agents",
+    "llm",
+    "runtime",
+    "dag",
+    "memory-graph",
+    "typescript"
+  ],
   "author": "shashwajenakinapelly",
   "license": "MIT",
   "devDependencies": {
