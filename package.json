@@ -1,0 +1,20 @@
+{
+  "name": "cortex-os",
+  "version": "1.0.0",
+  "description": "Ultra-fast, local-first autonomous AI agent runtime & memory orchestration engine.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/tests/*.test.js",
+    "demo": "tsc && node dist/examples/basic-agent.js",
+    "clean": "rm -rf dist"
+  },
+  "keywords": ["ai", "agents", "llm", "runtime", "dag", "memory-graph", "typescript"],
+  "author": "shashwajenakinapelly",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
