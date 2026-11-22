@@ -1,6 +1,6 @@
 {
   "name": "cortex-os",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Ultra-fast, local-first autonomous AI agent runtime & memory orchestration engine.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
     "test": "tsc && node --test dist/tests/*.test.js",
     "demo": "tsc && node dist/examples/basic-agent.js",
     "clean": "rm -rf dist",
-    "bench": "tsc && node dist/benchmarks/run.js"
+    "bench": "tsc && node dist/benchmarks/run.js",
+    "top": "tsc && node dist/src/cli/top.js"
   },
   "keywords": [
     "ai",

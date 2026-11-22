@@ -1,0 +1,48 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05070D"/>
+      <stop offset="50%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#05070D"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="200" y1="100" x2="1080" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1278" height="418" rx="15" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Glowing Node Graph Accent -->
+  <circle cx="640" cy="210" r="160" fill="#38BDF8" fill-opacity="0.04"/>
+  <circle cx="640" cy="210" r="95" stroke="url(#accent)" stroke-width="1" stroke-dasharray="4 6" stroke-opacity="0.4"/>
+
+  <!-- Status Pill -->
+  <rect x="515" y="72" width="250" height="30" rx="15" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+  <circle cx="536" cy="87" r="4.5" fill="#34D399"/>
+  <text x="648" y="92" fill="#94A3B8" font-family="monospace" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="1.5">KERNEL v1.1 • 0-DEPS</text>
+
+  <!-- Main Title -->
+  <text x="640" y="185" fill="#F8FAFC" font-family="system-ui, -apple-system, sans-serif" font-size="76" font-weight="800" text-anchor="middle" letter-spacing="-2">Cortex<tspan fill="url(#accent)">OS</tspan></text>
+
+  <!-- Subtitle -->
+  <text x="640" y="238" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="400" text-anchor="middle">Deterministic Autonomous Agent Runtime &amp; Hybrid Memory Graph</text>
+
+  <!-- Telemetry Pills -->
+  <g transform="translate(275, 295)">
+    <rect x="0" y="0" width="220" height="44" rx="8" fill="#0F172A" stroke="#1E293B"/>
+    <text x="110" y="27" fill="#38BDF8" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">⚡ 0.027ms / DAG NODE</text>
+
+    <rect x="255" y="0" width="220" height="44" rx="8" fill="#0F172A" stroke="#1E293B"/>
+    <text x="365" y="27" fill="#818CF8" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">🧬 O(1) + VECTOR GRAPH</text>
+
+    <rect x="510" y="0" width="220" height="44" rx="8" fill="#0F172A" stroke="#1E293B"/>
+    <text x="620" y="27" fill="#34D399" font-family="monospace" font-size="14" font-weight="700" text-anchor="middle">🔒 SANDBOXED TOOLS</text>
+  </g>
+</svg>
